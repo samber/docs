@@ -104,6 +104,7 @@ wide variety of JVM-based applications, for example [Kafka](http://kafka.apache.
    * [AWS CloudWatch exporter](https://github.com/prometheus/cloudwatch_exporter) (**official**)
    * [Cloud Foundry Firehose exporter](https://github.com/cloudfoundry-community/firehose_exporter)
    * [Collectd exporter](https://github.com/prometheus/collectd_exporter) (**official**)
+   * [Ejabberd exporter](https://gist.github.com/samber/0d6b91aae7600d8cfede66ab63263e19)
    * [Google Stackdriver exporter](https://github.com/frodenas/stackdriver_exporter)
    * [Graphite exporter](https://github.com/prometheus/graphite_exporter) (**official**)
    * [Heka dashboard exporter](https://github.com/docker-infra/heka_exporter)
@@ -182,6 +183,7 @@ make use of one of the normal Prometheus client libraries under the hood. As
 for all independently maintained software, we cannot vet all of them for best
 practices.
 
+   * Bash exporter example: [exporter based on bash](https://gist.github.com/samber/0d6b91aae7600d8cfede66ab63263e19)
    * Clojure: [prometheus-clj](https://github.com/soundcloud/prometheus-clj)
    * Go: [go-metrics instrumentation library](https://github.com/armon/go-metrics)
    * Go: [gokit](https://github.com/peterbourgon/gokit)
